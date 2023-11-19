@@ -21,7 +21,7 @@ export const FormContribution = ({ onCloseModal }: FormContributionProps) => {
   }
 
   return (
-    <div className="max-h-[900px] overflow-y-auto">
+    <div className="h-full md:max-h-[85vh] overflow-y-auto">
       {mappedForm[currentForm]}
     </div>
   )

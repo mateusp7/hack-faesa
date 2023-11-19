@@ -38,7 +38,7 @@ export const SendContribution = () => {
           </Dialog.Trigger>
           <Dialog.Portal>
             <Dialog.Overlay className="bg-black/60 fixed inset-0 z-20" />
-            <Dialog.Content className=" fixed rounded-lg top-[50%] z-30 left-[50%] w-[600px] translate-x-[-50%] translate-y-[-50%] bg-white focus:outline-none">
+            <Dialog.Content className="fixed rounded-lg top-[50%] h-full sm:h-fit z-30 left-[50%] w-full md:w-[600px] translate-x-[-50%] translate-y-[-50%] bg-white focus:outline-none">
               <FormContribution onCloseModal={setIsOpenModal} />
             </Dialog.Content>
           </Dialog.Portal>
