@@ -1,12 +1,17 @@
 "use client"
 
-import LeafLetMap from "@/components/map"
 import { InformationPostItem, Post } from "@/components/post"
 
 import { Calendar, Flame, MapPin } from "lucide-react"
 
 import Queimadas_one from "../../../public/assets/desmatamento-1.png"
 import Queimadas_two from "../../../public/assets/desmatamento-2.png"
+
+import dynamic from "next/dynamic"
+
+const MapLiveDynamic = dynamic(() => import("../../components/map/index"), {
+  ssr: false,
+})
 
 export default function MapsGraphs() {
   const objTemp: InformationPostItem[] = [
@@ -30,7 +35,7 @@ export default function MapsGraphs() {
         <h1 className="text-[#45464E] mb-4 font-semibold text-sm md:text-xl tracking-wide">
           Mais informações sobre Vitória - ES
         </h1>
-        <LeafLetMap className="h-[400px] md:h-[600px]" />
+        <MapLiveDynamic className="h-[400px] md:h-[600px]" />
       </div>
       <div className="px-5 py-6 w-full rounded-3xl grid grid-cols-1 md:grid-cols-2 gap-x-4 bg-white justify-between shadow-box border border-[#BEC0CA] flex-col mt-4">
         <h1 className="text-[#45464E] col-span-full font-semibold text-sm md:text-xl tracking-wide">

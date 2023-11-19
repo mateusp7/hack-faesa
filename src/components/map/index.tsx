@@ -10,7 +10,7 @@ import {
   TileLayer,
 } from "react-leaflet"
 
-const LeafLetMap = ({ className }: { className?: string }) => {
+export default function LeafLetMap({ className }: { className?: string }) {
   const fillBlueOptions = { fillColor: "blue" }
   const fillRedOptions = { fillColor: "red" }
   const greenOptions = { color: "green", fillColor: "green" }
@@ -78,5 +78,3 @@ const LeafLetMap = ({ className }: { className?: string }) => {
     </MapContainer>
   )
 }
-
-export default LeafLetMap
