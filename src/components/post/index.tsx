@@ -36,7 +36,7 @@ export const Post = ({
           <Image
             src={personPhoto}
             alt="Perfil postando contribuição"
-            className="rounded-full w-fullh-full object-cover"
+            className="rounded-full w-full h-full object-cover"
             width={60}
             height={60}
           />
