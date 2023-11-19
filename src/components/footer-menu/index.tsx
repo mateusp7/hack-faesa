@@ -1,4 +1,4 @@
-import { BarChart4, Home, LocateFixed } from "lucide-react"
+import { Home, LocateFixed } from "lucide-react"
 import { FooterItem } from "./item"
 
 export const FooterMenu = () => {
@@ -9,9 +9,6 @@ export const FooterMenu = () => {
       </FooterItem>
       <FooterItem title="Mapa" href="/maps-graphs">
         <LocateFixed className="text-white w-6 h-6" />
-      </FooterItem>
-      <FooterItem title="Dados" href="/">
-        <BarChart4 className="text-white w-6 h-6" />
       </FooterItem>
     </div>
   )

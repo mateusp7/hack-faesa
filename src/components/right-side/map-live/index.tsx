@@ -18,8 +18,8 @@ const MapLive = () => {
           <h1 className="text-[#45464E] font-semibold text-lg tracking-wide">
             Informações ao vivo
           </h1>
-          <span className="bg-red-500 w-fit rounded px-2 text-base text-white uppercase flex flex-row items-center gap-1">
-            <div className="bg-white  w-4 h-4 rounded-full" />
+          <span className="bg-red-500 w-fit tracking-wide rounded px-2 text-base text-white uppercase flex flex-row items-center gap-1">
+            <div className="bg-white w-3 h-3 rounded-full" />
             LIVE
           </span>
         </div>

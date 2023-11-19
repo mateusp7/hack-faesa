@@ -9,7 +9,6 @@ import {
   Title,
   Tooltip,
 } from "chart.js"
-import { Maximize } from "lucide-react"
 import { Bar } from "react-chartjs-2"
 
 export const Deforestation = () => {
@@ -54,9 +53,9 @@ export const Deforestation = () => {
           Desmatamento
         </h1>
 
-        <button className="rounded-full hover:scale-105 transition-transform duration-200 ease-linear p-1 bg-linear shadow-buttons w-12 h-12 flex items-center justify-center">
+        {/* <button className="rounded-full hover:scale-105 transition-transform duration-200 ease-linear p-1 bg-linear shadow-buttons w-12 h-12 flex items-center justify-center">
           <Maximize className="text-white w-7 h-7" />
-        </button>
+        </button> */}
       </header>
       <Bar options={options} data={data} />
     </div>

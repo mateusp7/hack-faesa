@@ -51,7 +51,7 @@ export default function Home() {
         <SendContribution />
 
         <Post
-          name="Miyuki Storch"
+          name="Larissa Storch"
           personPhoto="./assets/carol-foto.svg"
           city="Pedra Azul"
           time="Há duas horas atras"
