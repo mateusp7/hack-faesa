@@ -7,10 +7,10 @@ export const FooterMenu = () => {
       <FooterItem title="Início" href="/">
         <Home className="text-white w-6 h-6" />
       </FooterItem>
-      <FooterItem title="Mapa" href="/maps">
+      <FooterItem title="Mapa" href="/maps-graphs">
         <LocateFixed className="text-white w-6 h-6" />
       </FooterItem>
-      <FooterItem title="Dados" href="/charts">
+      <FooterItem title="Dados" href="/">
         <BarChart4 className="text-white w-6 h-6" />
       </FooterItem>
     </div>

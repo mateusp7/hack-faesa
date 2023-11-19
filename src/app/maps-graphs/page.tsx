@@ -8,7 +8,7 @@ import { Calendar, Flame, MapPin } from "lucide-react"
 import Queimadas_one from "../../../public/assets/desmatamento-1.png"
 import Queimadas_two from "../../../public/assets/desmatamento-2.png"
 
-const Maps = () => {
+export default function MapsGraphs() {
   const objTemp: InformationPostItem[] = [
     {
       icon: <MapPin className="text-[#CC5F5F] w-6 h-6" />,
@@ -70,5 +70,3 @@ const Maps = () => {
     </div>
   )
 }
-
-export default Maps

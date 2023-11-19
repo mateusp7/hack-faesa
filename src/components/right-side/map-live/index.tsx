@@ -8,7 +8,7 @@ const MapLive = () => {
   const router = useRouter()
 
   const handleGoToMaps = () => {
-    router.push("/maps")
+    router.push("/maps-graphs")
   }
 
   return (
